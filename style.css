@@ -34,6 +34,10 @@
   font-weight: 500;
 }
 
+.navbar .logo a span{
+  color: gold
+}
+
 .navbar .menu li a:hover {
   color: gold
 }
