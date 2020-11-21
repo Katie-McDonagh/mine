@@ -18,7 +18,7 @@
   width: 100%;
   padding: 30px 0;
   font-family: 'Mulish';
-  /* background: gold; */
+  transition: all 0.3s ease;
 
 }
 
@@ -32,6 +32,11 @@
   color: whitesmoke;
   font-size: 35px;
   font-weight: 500;
+}
+
+.navbar.sticky{
+  padding: 15px 0;
+  background: gold;
 }
 
 .navbar .logo a span{
