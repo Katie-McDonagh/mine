@@ -167,6 +167,8 @@
   color: grey;
   font-size: 25xp;
   padding: 12px 36px;
+  margin-top: 20px;
+  border-radius: 6px;
 }
 
 @media  (max-width: 690px){
