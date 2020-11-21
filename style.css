@@ -7,11 +7,23 @@
   text-decoration: none;
 }
 
+.max-width{
+  max-width: 1300px;
+  padding: 0 80px;
+  margin: auto; 
+}
+
 .navbar{
   position: fixed;
   width: 100%;
   font-family: 'Mulish';
   background: gold;
+}
+
+.navbar .max-width{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .navbar .logo a{
