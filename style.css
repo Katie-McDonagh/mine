@@ -176,6 +176,9 @@ section{
   font-weight: 600;
   margin-bottom: 10px;
 }
+.about .about-content .right .text span{
+  color: gold;
+}
 
 
 
