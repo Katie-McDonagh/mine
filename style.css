@@ -196,6 +196,11 @@ section{
   transition: all 0.3s ease;
 }
 
+.about .about-content .right a:hover{
+  color: gold;
+  background: none;
+}
+
 
 @media  (max-width: 1104px){
   .home .max-width{
