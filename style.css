@@ -101,3 +101,9 @@
   color: grey;
   font-weight: 500;
 }
+
+.menu-btn {
+  size: 23xp;
+  color: whitesmoke;
+  cursor: pointer;
+}
