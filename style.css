@@ -53,6 +53,10 @@
   color: gold
 }
 
+.navbar.sticky .menu li a:hover {
+  color: whitesmoke;
+}
+
 .navbar .menu li{
   list-style: none;
   display: inline-block; 
