@@ -43,3 +43,10 @@
   font-weight: 400;
   margin-left: 25px;
 }
+
+
+.home {
+  display: flex;
+  background: url("images/banner.jpg") no-repeat center;
+  height: 100vh;
+}
