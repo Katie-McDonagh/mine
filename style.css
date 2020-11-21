@@ -153,8 +153,14 @@ section{
 .about .title::after{
   content: "who i am";
 }
+
+.about .about-content{
+  display: flex;
+  align-items: center;
+}
 .about .about-content .left{
   width: 45%;
+
 }
 .about .about-content .left img{
   height: 400px;
