@@ -159,6 +159,11 @@
 .home .home-content .text-3{
   font-size: 35px;
 }
+
+.home .home-content a{
+  font-size: 23;
+  padding: 10px 30px;
+}
 }
 
 .home .home-content a{
@@ -188,6 +193,11 @@
   
   .home .home-content .text-3{
     font-size: 32px;
+  }
+
+  .home .home-content a{
+    font-size: 18;
+    /* padding: 9px 25px; */
   }
   }
 
