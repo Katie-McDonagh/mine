@@ -183,7 +183,18 @@ section{
 .about .about-content .right p{
   text-align: justify;
 }
-
+.about .about-content .right a{
+  display: inline-block;
+  background: gold;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 10px 30px;
+  margin-top: 20px;
+  border-radius: 6px;
+  border: 2px solid gold;
+  transition: all 0.3s ease;
+}
 
 
 @media  (max-width: 1104px){
