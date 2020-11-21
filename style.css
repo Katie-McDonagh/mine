@@ -13,3 +13,7 @@
   font-family: 'Mulish';
   background: gold;
 }
+
+.navbar .menu li a{
+  color: whitesmoke;
+}
