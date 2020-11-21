@@ -16,9 +16,10 @@
 .navbar{
   position: fixed;
   width: 100%;
-  padding: 15px 0;
+  padding: 30px 0;
   font-family: 'Mulish';
-  background: gold;
+  /* background: gold; */
+
 }
 
 .navbar .max-width{
@@ -31,6 +32,10 @@
   color: whitesmoke;
   font-size: 35px;
   font-weight: 500;
+}
+
+.navbar .menu li a:hover {
+  color: gold
 }
 
 .navbar .menu li{
