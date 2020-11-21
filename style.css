@@ -106,4 +106,13 @@
   size: 23xp;
   color: whitesmoke;
   cursor: pointer;
+  display: none;
+}
+
+@media (max-width: 991px){
+
+  .max-width{
+    padding: 0 50px;
+  }
+
 }
