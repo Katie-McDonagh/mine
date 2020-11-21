@@ -169,6 +169,13 @@
   padding: 12px 36px;
   margin-top: 20px;
   border-radius: 6px;
+  border: 2px solid gold;
+  transition: all 0.3 ease;
+}
+
+.home .home-content a:hover{
+  color: gold;
+  background: none;
 }
 
 @media  (max-width: 690px){
