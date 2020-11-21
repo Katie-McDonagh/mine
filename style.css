@@ -106,38 +106,37 @@
   size: 23xp;
   color: whitesmoke;
   cursor: pointer;
-  display: none;
+  /* display: none; */
 }
 
 @media  (max-width: 947px){
-  .max-width{
-    padding: 0 50px;
-  }
   .menu-btn{
     display: block;
     z-index: 999;
-  }
-  .navbar .menu{
+}
+.menu-btn i.active:before{
+    content: "\f00d";
+}
+.navbar .menu{
     position: fixed;
     height: 100vh;
     width: 100%;
-    left: -100;
+    left: -100%;
     top: 0;
-    background: grey;
+    background: orange;
     text-align: center;
-    padding-top: 80px;  
-  }
-  .navbar .menu.active{
+    padding-top: 80px;
+    transition: all 0.3s ease;
+}
+.navbar .menu.active{
     left: 0;
-  }
-
-  .navbar .menu li{
+}
+.navbar .menu li{
     display: block;
-  }
-
-  .navbar .menu li a{
+}
+.navbar .menu li a{
     display: inline-block;
     margin: 20px 0;
     font-size: 25px;
-  }
+}
 }
