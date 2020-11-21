@@ -16,6 +16,7 @@
 .navbar{
   position: fixed;
   width: 100%;
+  padding: 15px 0;
   font-family: 'Mulish';
   background: gold;
 }
@@ -39,4 +40,6 @@
 
 .navbar .menu li a{
   color: whitesmoke;
+  font-weight: 400;
+  margin-left: 25px;
 }
