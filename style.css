@@ -14,6 +14,12 @@
   background: gold;
 }
 
+.navbar .logo a{
+  color: whitesmoke;
+  font-size: 35px;
+  font-weight: 500;
+}
+
 .navbar .menu li a{
   color: whitesmoke;
 }
