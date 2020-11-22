@@ -26,6 +26,20 @@ $('.menu-btn').click(function(){
   $('.menu-btn i').toggleClass("active");
 });
 
+var typed = new Typed(".typing", {
+  strings: ["Software Developer", "TDD enthusiast", "Agile Worker", "Film article writer"],
+  typeSpeed: 100,
+  backSpeed: 60,
+  loop: true
+});
+
+var typed = new Typed(".typing-2", {
+  strings: ["Software Developer", "TDD enthusiast", "Agile Worker", "Film article writer"],
+  typeSpeed: 100,
+  backSpeed: 60,
+  loop: true
+});
+
 
   $('.carousel').owlCarousel({
     margin: 20,
