@@ -17,6 +17,11 @@
     $('html').css("scrollBehavior", "auto");
 });
 
+$('.navbar .menu li a').click(function(){
+  $('html').css("scrollBehavior", "smooth");
+});
+
+
   $('.carousel').owlCarousel({
     margin: 20,
     loop: true,
