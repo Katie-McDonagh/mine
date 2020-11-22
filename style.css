@@ -113,12 +113,12 @@ section{
   padding: 100px 0;
 }
 
-.about {
+.about, .projects {
   font-family: 'Mulish';
 
 }
 
-.about .title {
+section .title {
   position: relative;
   font-size: 40px;
   font-weight: 400;
@@ -128,7 +128,7 @@ section{
   padding-bottom: 20px;
 }
 
-.about .title::before{
+section .title::before{
   content: "";
   position: absolute;
   bottom: 0px;
@@ -139,8 +139,8 @@ section{
   transform: translateX(-50%); 
 }
 
-.about .title::after{
-  content: "Who I am";
+section .title::after{
+ 
   position: absolute;
   bottom: -12px;
   left: 50%;
@@ -199,6 +199,51 @@ section{
 .about .about-content .right a:hover{
   color: gold;
   background: none;
+}
+
+.projects, .teams{
+  color:#fff;
+  background: #111;
+}
+.projects .title::before,
+.teams .title::before{
+  background: #fff;
+}
+.projects .title::after,
+.teams .title::after{
+  background:black;
+  content: "what i provide";
+}
+.projects .project-content .card{
+  width: calc(33% - 20px);
+  background: gold;
+  text-align: center;
+  border-radius: 6px;
+  padding: 20px 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.projects .project-content .card:hover{
+  background: gold;
+}
+.projects .project-content .card .box{
+  transition: all 0.3s ease;
+}
+.projects .project-content .card:hover .box{
+  transform: scale(1.05);
+}
+.projects .project-content .card i{
+  font-size: 50px;
+  color: gold;
+  transition: color 0.3s ease;
+}
+.projects .project-content .card:hover i{
+  color: #fff;
+}
+.projects .project-content .card .text{
+  font-size: 25px;
+  font-weight: 500;
+  margin: 10px 0 7px 0;
 }
 
 @media  (max-width: 1300px){
