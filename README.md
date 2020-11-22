@@ -6,6 +6,6 @@ sections:
 about me
 skills 
 projects
-things I support
+things I support/ Other things to check out
 contact me form
 ...
