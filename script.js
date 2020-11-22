@@ -12,6 +12,11 @@
       $('.menu-btn i').toggleClass("active");
   });
 
+  $('.scroll-up-btn').click(function(){
+    $('html').animate({scrollTop: 0});
+    $('html').css("scrollBehavior", "auto");
+});
+
   $('.carousel').owlCarousel({
     margin: 20,
     loop: true,
